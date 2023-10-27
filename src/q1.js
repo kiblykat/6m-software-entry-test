@@ -11,8 +11,12 @@
 
 function swap(x, y){
     // Task 1: Add code here
+    if(typeof x === "number" && typeof y==="number") 
+        console.log(y,x)
+    else return -1
 }
 
 // Task 2: Add code here
+swap(3,4)
 
 module.exports = swap;
